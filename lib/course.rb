@@ -3,15 +3,16 @@ class Course
   
   @@all = []
   
-  def initialize(title, schedule, description)
-    @title = title
-    @schedule = schedule
-    @description = description
+  def initialize
     @@all << self
   end
   
-  def self.all
+  def self. all
     @@all
+  end
+  
+  def self.resert_all
+    @@all.clear
   end
 end
 
