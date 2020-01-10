@@ -15,9 +15,6 @@ class Scraper
       end
     end
   end
-  
-  doc = scraper.get_page
-  
 end
 
 
